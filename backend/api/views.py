@@ -1,4 +1,4 @@
-from reset_framework import iewsets, filters
+from rest_framework import viewsets
 from .models import User
 from .serializer import UserSerializer
 
