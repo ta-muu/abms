@@ -1,6 +1,6 @@
 from rest_framework import viewsets
-from .models import User, Tank, Individual, WaterTemperature, Turbidity
-from .serializer import UserSerializer, TankSerializer, IndividualSerializer, WaterTemperatureSerializer, TurbiditySerializer
+from .models import User, Tank, Individual, Sensor, WaterTemperature, Turbidity
+from .serializer import UserSerializer, TankSerializer, IndividualSerializer, SensorSerializer, WaterTemperatureSerializer, TurbiditySerializer
 
 class UserViewSet(viewsets.ModelViewSet):
 	queryset = User.objects.all()  
@@ -13,6 +13,10 @@ class TankViewSet(viewsets.ModelViewSet):
 class IndividualViewSet(viewsets.ModelViewSet):
 	queryset = Individual.objects.all()  
 	serializer_class = IndividualSerializer
+	
+class SensorViewSet(viewsets.ModelViewSet):
+	queryset = Sensor.objects.all()  
+	serializer_class = SensorSerializer
 	
 class WaterTemperatureViewSet(viewsets.ModelViewSet):
 	queryset = WaterTemperature.objects.all()  
