@@ -19,7 +19,7 @@ services:
   sensor:
     build: ./sensor/docker
     restart: always
-    container_name: 'backsensorend'
+    container_name: 'sensor'
     # depends_on:
     #   - database
     # environment:
