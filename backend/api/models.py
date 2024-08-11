@@ -14,3 +14,9 @@ class Tank(models.Model):
 	deleted_at = models.DateTimeField(blank=True, null=True)
 	turbidity_threshold = models.FloatField()
 
+class Individual(models.Model):
+	created_at = models.DateTimeField(auto_now_add=True)
+	updated_at = models.DateTimeField(auto_now=True)
+	deleted_at = models.DateTimeField(blank=True, null=True)
+	tank_id = models.IntegerField()
+
