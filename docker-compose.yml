@@ -14,4 +14,4 @@ services:
     volumes:
       - ./backend:/opt/backend
     working_dir: /opt/backend
-    command: python3 manage.py runserver 0.0.0.0:8000
+    # command: python3 manage.py runserver 0.0.0.0:8000
