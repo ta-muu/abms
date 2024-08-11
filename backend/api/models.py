@@ -20,3 +20,14 @@ class Individual(models.Model):
 	deleted_at = models.DateTimeField(blank=True, null=True)
 	tank_id = models.IntegerField()
 
+class WaterTemperature(models.Model):
+	created_at = models.DateTimeField(auto_now_add=True)
+	updated_at = models.DateTimeField(auto_now=True)
+	tank_id = models.IntegerField()
+	water_temperature = models.FloatField()
+
+class Turbidity(models.Model):
+	created_at = models.DateTimeField(auto_now_add=True)
+	updated_at = models.DateTimeField(auto_now=True)
+	tank_id = models.IntegerField()
+	turbidity = models.FloatField()

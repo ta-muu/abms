@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import User, Tank, Individual
+from .models import User, Tank, Individual, WaterTemperature, Turbidity
 
 
 class UserSerializer(serializers.ModelSerializer):
@@ -17,3 +17,13 @@ class IndividualSerializer(serializers.ModelSerializer):
 	class Meta:
 		model = Individual
 		fields = ('id', 'created_at', 'updated_at', 'tank_id')
+
+class WaterTemperatureSerializer(serializers.ModelSerializer):
+	class Meta:
+		model = WaterTemperature
+		fields = ('id', 'created_at', 'updated_at', 'tank_id', "water_temperature")
+
+class TurbiditySerializer(serializers.ModelSerializer):
+	class Meta:
+		model = Turbidity
+		fields = ('id', 'created_at', 'updated_at', 'tank_id', "turbidity")
