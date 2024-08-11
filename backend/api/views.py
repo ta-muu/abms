@@ -1,11 +1,14 @@
 from rest_framework import viewsets
-from .models import User
-from .serializer import UserSerializer
+from .models import User, Tank
+from .serializer import UserSerializer, TankSerializer
 
 class UserViewSet(viewsets.ModelViewSet):
 	queryset = User.objects.all()  
 	serializer_class = UserSerializer
-	# User.objects.all().delete()
+
+class TankViewSet(viewsets.ModelViewSet):
+	queryset = Tank.objects.all()  
+	serializer_class = TankSerializer
 
 
 # Create your views here.
