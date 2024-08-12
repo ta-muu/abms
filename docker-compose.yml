@@ -15,3 +15,16 @@ services:
       - ./backend:/opt/backend
     working_dir: /opt/backend
     # command: python3 manage.py runserver 0.0.0.0:8000
+
+  broker:
+    build: ./broker/docker
+    restart: always
+    container_name: 'broker'
+    # depends_on:
+    #   - database
+    # environment:
+    ports:
+      - "8002:8002"
+    volumes:
+      - ./broker:/opt/broker
+    working_dir: /opt/broker
