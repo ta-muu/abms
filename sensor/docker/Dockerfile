@@ -13,8 +13,7 @@ RUN apt-get install -y vim less
 RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
 
-RUN python -m pip install django
-RUN python -m pip install djangorestframework
+RUN python -m pip install "fastapi[all]"
 RUN python -m pip install grove.py
 
 
