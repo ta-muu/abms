@@ -20,11 +20,25 @@ services:
     build: ./sensor/docker
     restart: always
     container_name: 'sensor'
-    # depends_on:
-    #   - database
-    # environment:
     ports:
       - "8001:8001"
     volumes:
       - ./sensor:/opt/sensor
     working_dir: /opt/sensor
+  
+  broker:
+    build: ./broker/docker
+    restart: always
+    container_name: 'broker'
+    # depends_on:
+    #   - database
+    # environment:
+    ports:
+      - "1883:1883"
+    tty: true
+    expose:
+        - 1883
+    volumes:
+      - ./broker:/opt/broker
+    working_dir: /opt/broker
+    command: mosquitto -c /opt/broker/mosquitto.conf
