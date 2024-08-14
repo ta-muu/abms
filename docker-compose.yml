@@ -15,3 +15,31 @@ services:
       - ./backend:/opt/backend
     working_dir: /opt/backend
     # command: python3 manage.py runserver 0.0.0.0:8000
+
+  # mqtt:
+  #     image: eclipse-mosquitto
+  #     container_name: mqtt
+  #     expose:
+  #       - 1883
+  #     ports:
+  #       - 1883:1883
+  #     restart: unless-stopped
+  #     volumes:
+  #       - ./broker:/opt/broker
+  
+  broker:
+    build: ./broker/docker
+    restart: always
+    container_name: 'broker'
+    # depends_on:
+    #   - database
+    # environment:
+    ports:
+      - "1883:1883"
+    tty: true
+    expose:
+        - 1883
+    volumes:
+      - ./broker:/opt/broker
+    working_dir: /opt/broker
+    command: mosquitto -c /opt/broker/mosquitto.conf
