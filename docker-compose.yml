@@ -42,3 +42,4 @@ services:
     volumes:
       - ./broker:/opt/broker
     working_dir: /opt/broker
+    command: mosquitto -c /opt/broker/mosquitto.conf
