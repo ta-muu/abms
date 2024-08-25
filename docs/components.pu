@@ -1,0 +1,37 @@
+@startuml
+
+
+cloud {
+	' port nat
+
+  [Frontend Server]
+  [Backend Server] -up- HTTPS
+  [Sensor Subscriber]
+  [Broker] - "MQTT/Pub"
+  "MQTT/Sub" - [Broker]
+
+
+	database "My SQL" {
+		[Database]
+	}
+}
+
+[Sensor Core]
+[Sensor]
+
+
+[Frontend Server] --> [Backend Server]
+[Backend Server] --> [Frontend Server]
+
+
+[Sensor Subscriber] --> HTTPS
+
+[Sensor Subscriber] -> "MQTT/Sub"
+[Sensor Core] -> "MQTT/Pub"
+[Sensor Core] --> [Sensor]
+
+
+[Database] --> [Backend Server]
+[Backend Server] --> [Database]
+
+@enduml
