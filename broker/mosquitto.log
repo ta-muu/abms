@@ -1,0 +1,916 @@
+1724687076: mosquitto version 2.0.18 starting
+1724687076: Config loaded from ./mosquitto.conf.
+1724687076: Opening ipv6 listen socket on port 1883.
+1724687076: Opening ipv4 listen socket on port 1883.
+1724687076: mosquitto version 2.0.18 running
+1724687298: New connection from 192.168.1.18:62521 on port 1883.
+1724687298: New client connected from 192.168.1.18:62521 as auto-70651F41-EFB6-4C21-BE04-AE62E52CD5B8 (p2, c1, k60).
+1724687298: No will message specified.
+1724687298: Sending CONNACK to auto-70651F41-EFB6-4C21-BE04-AE62E52CD5B8 (0, 0)
+1724687298: Received PUBLISH from auto-70651F41-EFB6-4C21-BE04-AE62E52CD5B8 (d0, q0, r0, m0, 'kame/temp', ... (12 bytes))
+1724687298: Received DISCONNECT from auto-70651F41-EFB6-4C21-BE04-AE62E52CD5B8
+1724687298: Client auto-70651F41-EFB6-4C21-BE04-AE62E52CD5B8 disconnected.
+1724687309: New connection from 192.168.1.18:62522 on port 1883.
+1724687309: New client connected from 192.168.1.18:62522 as auto-630572FF-33C5-D17E-E587-5EB28A4CF55F (p2, c1, k60).
+1724687309: No will message specified.
+1724687309: Sending CONNACK to auto-630572FF-33C5-D17E-E587-5EB28A4CF55F (0, 0)
+1724687309: Received PUBLISH from auto-630572FF-33C5-D17E-E587-5EB28A4CF55F (d0, q0, r0, m0, 'kame/temp', ... (12 bytes))
+1724687309: Received DISCONNECT from auto-630572FF-33C5-D17E-E587-5EB28A4CF55F
+1724687309: Client auto-630572FF-33C5-D17E-E587-5EB28A4CF55F disconnected.
+1724687335: mosquitto version 2.0.18 terminating
+1724687337: mosquitto version 2.0.18 starting
+1724687337: Config loaded from ./mosquitto.conf.
+1724687337: Opening ipv6 listen socket on port 1883.
+1724687337: Opening ipv4 listen socket on port 1883.
+1724687337: Opening ipv4 listen socket on port 1883.
+1724687337: Error: Can't assign requested address
+1724687411: mosquitto version 2.0.18 starting
+1724687411: Config loaded from ./mosquitto.conf.
+1724687411: Opening ipv6 listen socket on port 1883.
+1724687411: Opening ipv4 listen socket on port 1883.
+1724687411: Opening ipv4 listen socket on port 1883.
+1724687411: Error: Can't assign requested address
+1724687464: mosquitto version 2.0.18 starting
+1724687464: Config loaded from ./mosquitto.conf.
+1724687464: Opening ipv6 listen socket on port 1883.
+1724687464: Opening ipv4 listen socket on port 1883.
+1724687464: Opening ipv4 listen socket on port 1883.
+1724687464: Error: Can't assign requested address
+1724687484: mosquitto version 2.0.18 starting
+1724687484: Config loaded from ./mosquitto.conf.
+1724687484: Opening ipv6 listen socket on port 1883.
+1724687484: Opening ipv4 listen socket on port 1883.
+1724687484: mosquitto version 2.0.18 running
+1724687496: mosquitto version 2.0.18 terminating
+1724687498: mosquitto version 2.0.18 starting
+1724687498: Config loaded from ./mosquitto.conf.
+1724687498: Opening ipv6 listen socket on port 1883.
+1724687498: Opening ipv4 listen socket on port 1883.
+1724687498: mosquitto version 2.0.18 running
+1724687511: mosquitto version 2.0.18 terminating
+1724687515: mosquitto version 2.0.18 starting
+1724687515: Config loaded from ./mosquitto.conf.
+1724687515: Opening ipv6 listen socket on port 1883.
+1724687515: Opening ipv4 listen socket on port 1883.
+1724687515: mosquitto version 2.0.18 running
+1724687529: mosquitto version 2.0.18 terminating
+1724687532: mosquitto version 2.0.18 starting
+1724687532: Config loaded from ./mosquitto.conf.
+1724687532: Opening ipv6 listen socket on port 1883.
+1724687532: Opening ipv4 listen socket on port 1883.
+1724687532: mosquitto version 2.0.18 running
+1724687547: mosquitto version 2.0.18 terminating
+1724687548: mosquitto version 2.0.18 starting
+1724687548: Config loaded from ./mosquitto.conf.
+1724687548: Opening ipv6 listen socket on port 1883.
+1724687548: Opening ipv4 listen socket on port 1883.
+1724687548: mosquitto version 2.0.18 running
+1724687559: mosquitto version 2.0.18 terminating
+1724687560: mosquitto version 2.0.18 starting
+1724687560: Config loaded from ./mosquitto.conf.
+1724687560: Opening ipv6 listen socket on port 1883.
+1724687560: Opening ipv4 listen socket on port 1883.
+1724687560: mosquitto version 2.0.18 running
+1724687588: mosquitto version 2.0.18 terminating
+1724687589: mosquitto version 2.0.18 starting
+1724687589: Config loaded from ./mosquitto.conf.
+1724687589: Opening ipv6 listen socket on port 1883.
+1724687589: Opening ipv4 listen socket on port 1883.
+1724687589: mosquitto version 2.0.18 running
+1724687605: mosquitto version 2.0.18 terminating
+1724687606: mosquitto version 2.0.18 starting
+1724687606: Config loaded from ./mosquitto.conf.
+1724687606: Opening ipv6 listen socket on port 1883.
+1724687606: Opening ipv4 listen socket on port 1883.
+1724687606: mosquitto version 2.0.18 running
+1724687614: New connection from 192.168.1.18:62544 on port 1883.
+1724687614: New client connected from 192.168.1.18:62544 as auto-535791E6-0870-69D9-2E6D-D31B310BA2BF (p2, c1, k60).
+1724687614: No will message specified.
+1724687614: Sending CONNACK to auto-535791E6-0870-69D9-2E6D-D31B310BA2BF (0, 0)
+1724687614: Received PUBLISH from auto-535791E6-0870-69D9-2E6D-D31B310BA2BF (d0, q0, r0, m0, 'kame/temp', ... (12 bytes))
+1724687614: Received DISCONNECT from auto-535791E6-0870-69D9-2E6D-D31B310BA2BF
+1724687614: Client auto-535791E6-0870-69D9-2E6D-D31B310BA2BF disconnected.
+1724687620: New connection from 192.168.1.18:62546 on port 1883.
+1724687620: New client connected from 192.168.1.18:62546 as auto-348A5D48-2C6B-B983-A9C5-EEAF0523928D (p2, c1, k60).
+1724687620: No will message specified.
+1724687620: Sending CONNACK to auto-348A5D48-2C6B-B983-A9C5-EEAF0523928D (0, 0)
+1724687620: Received PUBLISH from auto-348A5D48-2C6B-B983-A9C5-EEAF0523928D (d0, q0, r0, m0, 'kame/temp', ... (12 bytes))
+1724687620: Received DISCONNECT from auto-348A5D48-2C6B-B983-A9C5-EEAF0523928D
+1724687620: Client auto-348A5D48-2C6B-B983-A9C5-EEAF0523928D disconnected.
+1724687630: New connection from 192.168.1.18:62548 on port 1883.
+1724687630: New client connected from 192.168.1.18:62548 as auto-3ADCE24D-6543-93FD-5324-CE3FE5EF15D8 (p2, c1, k60).
+1724687630: No will message specified.
+1724687630: Sending CONNACK to auto-3ADCE24D-6543-93FD-5324-CE3FE5EF15D8 (0, 0)
+1724687630: Received PUBLISH from auto-3ADCE24D-6543-93FD-5324-CE3FE5EF15D8 (d0, q0, r0, m0, 'kame/temp', ... (12 bytes))
+1724687630: Received DISCONNECT from auto-3ADCE24D-6543-93FD-5324-CE3FE5EF15D8
+1724687630: Client auto-3ADCE24D-6543-93FD-5324-CE3FE5EF15D8 disconnected.
+1724687652: New connection from 192.168.1.18:62550 on port 1883.
+1724687652: New client connected from 192.168.1.18:62550 as auto-579DDF9A-CE05-90D5-E968-FC00875B78BD (p2, c1, k60).
+1724687652: No will message specified.
+1724687652: Sending CONNACK to auto-579DDF9A-CE05-90D5-E968-FC00875B78BD (0, 0)
+1724687652: Received SUBSCRIBE from auto-579DDF9A-CE05-90D5-E968-FC00875B78BD
+1724687652: 	kame/temp (QoS 0)
+1724687652: Sending SUBACK to auto-579DDF9A-CE05-90D5-E968-FC00875B78BD
+1724687655: Received DISCONNECT from auto-579DDF9A-CE05-90D5-E968-FC00875B78BD
+1724687655: Client auto-579DDF9A-CE05-90D5-E968-FC00875B78BD disconnected.
+1724687659: New connection from 192.168.1.18:62551 on port 1883.
+1724687659: New client connected from 192.168.1.18:62551 as auto-A58B483E-229E-0EFB-08C1-D9DC0F3B7A50 (p2, c1, k60).
+1724687659: No will message specified.
+1724687659: Sending CONNACK to auto-A58B483E-229E-0EFB-08C1-D9DC0F3B7A50 (0, 0)
+1724687659: Received SUBSCRIBE from auto-A58B483E-229E-0EFB-08C1-D9DC0F3B7A50
+1724687659: 	kame/temp (QoS 0)
+1724687659: Sending SUBACK to auto-A58B483E-229E-0EFB-08C1-D9DC0F3B7A50
+1724687661: New connection from 192.168.1.18:62552 on port 1883.
+1724687661: New client connected from 192.168.1.18:62552 as auto-71F862D0-0D5B-106E-014E-37CFCEBFCA93 (p2, c1, k60).
+1724687661: No will message specified.
+1724687661: Sending CONNACK to auto-71F862D0-0D5B-106E-014E-37CFCEBFCA93 (0, 0)
+1724687661: Received PUBLISH from auto-71F862D0-0D5B-106E-014E-37CFCEBFCA93 (d0, q0, r0, m0, 'kame/temp', ... (12 bytes))
+1724687661: Sending PUBLISH to auto-A58B483E-229E-0EFB-08C1-D9DC0F3B7A50 (d0, q0, r0, m0, 'kame/temp', ... (12 bytes))
+1724687661: Received DISCONNECT from auto-71F862D0-0D5B-106E-014E-37CFCEBFCA93
+1724687661: Client auto-71F862D0-0D5B-106E-014E-37CFCEBFCA93 disconnected.
+1724687719: Received PINGREQ from auto-A58B483E-229E-0EFB-08C1-D9DC0F3B7A50
+1724687719: Sending PINGRESP to auto-A58B483E-229E-0EFB-08C1-D9DC0F3B7A50
+1724687762: New connection from 192.168.1.18:62560 on port 1883.
+1724687762: New client connected from 192.168.1.18:62560 as auto-A6DD53BC-87F6-1A84-94D2-AA7B39064A30 (p2, c1, k60).
+1724687762: No will message specified.
+1724687762: Sending CONNACK to auto-A6DD53BC-87F6-1A84-94D2-AA7B39064A30 (0, 0)
+1724687762: Received PUBLISH from auto-A6DD53BC-87F6-1A84-94D2-AA7B39064A30 (d0, q0, r0, m0, 'kame/temp', ... (12 bytes))
+1724687762: Sending PUBLISH to auto-A58B483E-229E-0EFB-08C1-D9DC0F3B7A50 (d0, q0, r0, m0, 'kame/temp', ... (12 bytes))
+1724687762: Received DISCONNECT from auto-A6DD53BC-87F6-1A84-94D2-AA7B39064A30
+1724687762: Client auto-A6DD53BC-87F6-1A84-94D2-AA7B39064A30 disconnected.
+1724687779: Received PINGREQ from auto-A58B483E-229E-0EFB-08C1-D9DC0F3B7A50
+1724687779: Sending PINGRESP to auto-A58B483E-229E-0EFB-08C1-D9DC0F3B7A50
+1724687840: Received PINGREQ from auto-A58B483E-229E-0EFB-08C1-D9DC0F3B7A50
+1724687840: Sending PINGRESP to auto-A58B483E-229E-0EFB-08C1-D9DC0F3B7A50
+1724687900: Received PINGREQ from auto-A58B483E-229E-0EFB-08C1-D9DC0F3B7A50
+1724687900: Sending PINGRESP to auto-A58B483E-229E-0EFB-08C1-D9DC0F3B7A50
+1724687959: Received PINGREQ from auto-A58B483E-229E-0EFB-08C1-D9DC0F3B7A50
+1724687959: Sending PINGRESP to auto-A58B483E-229E-0EFB-08C1-D9DC0F3B7A50
+1724688019: Received PINGREQ from auto-A58B483E-229E-0EFB-08C1-D9DC0F3B7A50
+1724688019: Sending PINGRESP to auto-A58B483E-229E-0EFB-08C1-D9DC0F3B7A50
+1724688079: Received PINGREQ from auto-A58B483E-229E-0EFB-08C1-D9DC0F3B7A50
+1724688079: Sending PINGRESP to auto-A58B483E-229E-0EFB-08C1-D9DC0F3B7A50
+1724688140: Received PINGREQ from auto-A58B483E-229E-0EFB-08C1-D9DC0F3B7A50
+1724688140: Sending PINGRESP to auto-A58B483E-229E-0EFB-08C1-D9DC0F3B7A50
+1724688195: Received DISCONNECT from auto-A58B483E-229E-0EFB-08C1-D9DC0F3B7A50
+1724688195: Client auto-A58B483E-229E-0EFB-08C1-D9DC0F3B7A50 disconnected.
+1724688222: New connection from 192.168.1.18:62615 on port 1883.
+1724688222: New client connected from 192.168.1.18:62615 as auto-C35F0933-A2F9-098E-0D80-2089AA43B90B (p2, c1, k60).
+1724688222: No will message specified.
+1724688222: Sending CONNACK to auto-C35F0933-A2F9-098E-0D80-2089AA43B90B (0, 0)
+1724688222: Received SUBSCRIBE from auto-C35F0933-A2F9-098E-0D80-2089AA43B90B
+1724688222: 	kame/temp (QoS 0)
+1724688222: Sending SUBACK to auto-C35F0933-A2F9-098E-0D80-2089AA43B90B
+1724688269: Received DISCONNECT from auto-C35F0933-A2F9-098E-0D80-2089AA43B90B
+1724688269: Client auto-C35F0933-A2F9-098E-0D80-2089AA43B90B disconnected.
+1724688680: mosquitto version 2.0.18 terminating
+1724688681: mosquitto version 2.0.18 starting
+1724688681: Config loaded from ./mosquitto.conf.
+1724688681: Opening ipv4 listen socket on port 1883.
+1724688681: mosquitto version 2.0.18 running
+1724688687: New connection from 192.168.1.18:62854 on port 1883.
+1724688687: New client connected from 192.168.1.18:62854 as auto-719B6E76-E434-42F8-DB9B-2455E2D75CE8 (p2, c1, k60).
+1724688687: No will message specified.
+1724688687: Sending CONNACK to auto-719B6E76-E434-42F8-DB9B-2455E2D75CE8 (0, 0)
+1724688687: Received SUBSCRIBE from auto-719B6E76-E434-42F8-DB9B-2455E2D75CE8
+1724688687: 	kame/temp (QoS 0)
+1724688687: Sending SUBACK to auto-719B6E76-E434-42F8-DB9B-2455E2D75CE8
+1724688748: Received PINGREQ from auto-719B6E76-E434-42F8-DB9B-2455E2D75CE8
+1724688748: Sending PINGRESP to auto-719B6E76-E434-42F8-DB9B-2455E2D75CE8
+1724688808: Received PINGREQ from auto-719B6E76-E434-42F8-DB9B-2455E2D75CE8
+1724688808: Sending PINGRESP to auto-719B6E76-E434-42F8-DB9B-2455E2D75CE8
+1724688843: mosquitto version 2.0.18 terminating
+1724688844: mosquitto version 2.0.18 starting
+1724688844: Config loaded from ./mosquitto.conf.
+1724688844: Opening ipv6 listen socket on port 1883.
+1724688844: Opening ipv4 listen socket on port 1883.
+1724688844: mosquitto version 2.0.18 running
+1724688845: New connection from 192.168.1.18:62978 on port 1883.
+1724688845: New client connected from 192.168.1.18:62978 as auto-E135E200-72AD-F9D8-7A96-1C06CF4F113B (p2, c1, k60).
+1724688845: No will message specified.
+1724688845: Sending CONNACK to auto-E135E200-72AD-F9D8-7A96-1C06CF4F113B (0, 0)
+1724688845: Received SUBSCRIBE from auto-E135E200-72AD-F9D8-7A96-1C06CF4F113B
+1724688845: 	kame/temp (QoS 0)
+1724688845: Sending SUBACK to auto-E135E200-72AD-F9D8-7A96-1C06CF4F113B
+1724688905: Received PINGREQ from auto-E135E200-72AD-F9D8-7A96-1C06CF4F113B
+1724688905: Sending PINGRESP to auto-E135E200-72AD-F9D8-7A96-1C06CF4F113B
+1724688917: Received DISCONNECT from auto-E135E200-72AD-F9D8-7A96-1C06CF4F113B
+1724688917: Client auto-E135E200-72AD-F9D8-7A96-1C06CF4F113B disconnected.
+1724689165: New connection from 192.168.1.18:63088 on port 1883.
+1724689165: New client connected from 192.168.1.18:63088 as auto-48078ED9-0783-0934-4C5C-990712374BA1 (p2, c1, k60).
+1724689165: No will message specified.
+1724689165: Sending CONNACK to auto-48078ED9-0783-0934-4C5C-990712374BA1 (0, 0)
+1724689165: Received PUBLISH from auto-48078ED9-0783-0934-4C5C-990712374BA1 (d0, q0, r0, m0, 'kame/temp', ... (12 bytes))
+1724689165: Received DISCONNECT from auto-48078ED9-0783-0934-4C5C-990712374BA1
+1724689165: Client auto-48078ED9-0783-0934-4C5C-990712374BA1 disconnected.
+1724689217: mosquitto version 2.0.18 terminating
+1724689231: mosquitto version 2.0.18 starting
+1724689231: Config loaded from ./mosquitto.conf.
+1724689231: Opening ipv4 listen socket on port 1883.
+1724689231: Error: Can't assign requested address
+1724689253: mosquitto version 2.0.18 starting
+1724689253: Config loaded from ./mosquitto.conf.
+1724689253: Opening ipv6 listen socket on port 1883.
+1724689253: Opening ipv4 listen socket on port 1883.
+1724689253: mosquitto version 2.0.18 running
+1724689256: New connection from 192.168.1.18:63114 on port 1883.
+1724689256: New client connected from 192.168.1.18:63114 as auto-D2BF4848-3D4A-BA0D-9EF7-71FCE828621D (p2, c1, k60).
+1724689256: No will message specified.
+1724689256: Sending CONNACK to auto-D2BF4848-3D4A-BA0D-9EF7-71FCE828621D (0, 0)
+1724689256: Received PUBLISH from auto-D2BF4848-3D4A-BA0D-9EF7-71FCE828621D (d0, q0, r0, m0, 'kame/temp', ... (12 bytes))
+1724689256: Received DISCONNECT from auto-D2BF4848-3D4A-BA0D-9EF7-71FCE828621D
+1724689256: Client auto-D2BF4848-3D4A-BA0D-9EF7-71FCE828621D disconnected.
+1724689274: New connection from 192.168.1.18:63116 on port 1883.
+1724689274: New client connected from 192.168.1.18:63116 as auto-392CC632-7192-5E63-769A-F3BFB2755804 (p2, c1, k60).
+1724689274: No will message specified.
+1724689274: Sending CONNACK to auto-392CC632-7192-5E63-769A-F3BFB2755804 (0, 0)
+1724689274: Received PUBLISH from auto-392CC632-7192-5E63-769A-F3BFB2755804 (d0, q0, r0, m0, 'kame/temp', ... (12 bytes))
+1724689274: Received DISCONNECT from auto-392CC632-7192-5E63-769A-F3BFB2755804
+1724689274: Client auto-392CC632-7192-5E63-769A-F3BFB2755804 disconnected.
+1724689306: New connection from 192.168.1.18:63118 on port 1883.
+1724689306: New client connected from 192.168.1.18:63118 as auto-82930B8E-0778-7AE9-DF67-D269ECB79780 (p2, c1, k60).
+1724689306: No will message specified.
+1724689306: Sending CONNACK to auto-82930B8E-0778-7AE9-DF67-D269ECB79780 (0, 0)
+1724689306: Received SUBSCRIBE from auto-82930B8E-0778-7AE9-DF67-D269ECB79780
+1724689306: 	kame/temp (QoS 0)
+1724689306: Sending SUBACK to auto-82930B8E-0778-7AE9-DF67-D269ECB79780
+1724689309: New connection from 192.168.1.18:63119 on port 1883.
+1724689309: New client connected from 192.168.1.18:63119 as auto-54E0F142-CAF6-750C-7008-F8FCB957C983 (p2, c1, k60).
+1724689309: No will message specified.
+1724689309: Sending CONNACK to auto-54E0F142-CAF6-750C-7008-F8FCB957C983 (0, 0)
+1724689309: Received PUBLISH from auto-54E0F142-CAF6-750C-7008-F8FCB957C983 (d0, q0, r0, m0, 'kame/temp', ... (12 bytes))
+1724689309: Sending PUBLISH to auto-82930B8E-0778-7AE9-DF67-D269ECB79780 (d0, q0, r0, m0, 'kame/temp', ... (12 bytes))
+1724689309: Received DISCONNECT from auto-54E0F142-CAF6-750C-7008-F8FCB957C983
+1724689309: Client auto-54E0F142-CAF6-750C-7008-F8FCB957C983 disconnected.
+1724689310: New connection from 192.168.1.18:63120 on port 1883.
+1724689310: New client connected from 192.168.1.18:63120 as auto-20FDFE09-8B14-671A-2B3B-62D1682E47F9 (p2, c1, k60).
+1724689310: No will message specified.
+1724689310: Sending CONNACK to auto-20FDFE09-8B14-671A-2B3B-62D1682E47F9 (0, 0)
+1724689310: Received PUBLISH from auto-20FDFE09-8B14-671A-2B3B-62D1682E47F9 (d0, q0, r0, m0, 'kame/temp', ... (12 bytes))
+1724689310: Sending PUBLISH to auto-82930B8E-0778-7AE9-DF67-D269ECB79780 (d0, q0, r0, m0, 'kame/temp', ... (12 bytes))
+1724689310: Received DISCONNECT from auto-20FDFE09-8B14-671A-2B3B-62D1682E47F9
+1724689310: Client auto-20FDFE09-8B14-671A-2B3B-62D1682E47F9 disconnected.
+1724689346: Received DISCONNECT from auto-82930B8E-0778-7AE9-DF67-D269ECB79780
+1724689346: Client auto-82930B8E-0778-7AE9-DF67-D269ECB79780 disconnected.
+1724689350: New connection from 192.168.1.18:63128 on port 1883.
+1724689350: New client connected from 192.168.1.18:63128 as auto-D5241B3B-FC61-A6A4-74FC-A419FD30B7F7 (p2, c1, k60).
+1724689350: No will message specified.
+1724689350: Sending CONNACK to auto-D5241B3B-FC61-A6A4-74FC-A419FD30B7F7 (0, 0)
+1724689350: Received SUBSCRIBE from auto-D5241B3B-FC61-A6A4-74FC-A419FD30B7F7
+1724689350: 	kame/temp (QoS 0)
+1724689350: Sending SUBACK to auto-D5241B3B-FC61-A6A4-74FC-A419FD30B7F7
+1724689353: New connection from 192.168.1.18:63129 on port 1883.
+1724689353: New client connected from 192.168.1.18:63129 as auto-96F7622A-FBB6-AFD1-B355-D59016A080DD (p2, c1, k60).
+1724689353: No will message specified.
+1724689353: Sending CONNACK to auto-96F7622A-FBB6-AFD1-B355-D59016A080DD (0, 0)
+1724689353: Received PUBLISH from auto-96F7622A-FBB6-AFD1-B355-D59016A080DD (d0, q0, r0, m0, 'kame/temp', ... (12 bytes))
+1724689353: Sending PUBLISH to auto-D5241B3B-FC61-A6A4-74FC-A419FD30B7F7 (d0, q0, r0, m0, 'kame/temp', ... (12 bytes))
+1724689353: Received DISCONNECT from auto-96F7622A-FBB6-AFD1-B355-D59016A080DD
+1724689353: Client auto-96F7622A-FBB6-AFD1-B355-D59016A080DD disconnected.
+1724689410: Received PINGREQ from auto-D5241B3B-FC61-A6A4-74FC-A419FD30B7F7
+1724689410: Sending PINGRESP to auto-D5241B3B-FC61-A6A4-74FC-A419FD30B7F7
+1724689470: Received PINGREQ from auto-D5241B3B-FC61-A6A4-74FC-A419FD30B7F7
+1724689470: Sending PINGRESP to auto-D5241B3B-FC61-A6A4-74FC-A419FD30B7F7
+1724689509: Received DISCONNECT from auto-D5241B3B-FC61-A6A4-74FC-A419FD30B7F7
+1724689509: Client auto-D5241B3B-FC61-A6A4-74FC-A419FD30B7F7 disconnected.
+1724689513: New connection from 192.168.1.18:63189 on port 1883.
+1724689513: New client connected from 192.168.1.18:63189 as auto-4490245D-53C5-331A-A413-C782D65E1FBC (p2, c1, k60).
+1724689513: No will message specified.
+1724689513: Sending CONNACK to auto-4490245D-53C5-331A-A413-C782D65E1FBC (0, 0)
+1724689513: Received SUBSCRIBE from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724689513: 	kame/temp (QoS 0)
+1724689513: Sending SUBACK to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724689523: New connection from 192.168.1.18:63190 on port 1883.
+1724689523: New client connected from 192.168.1.18:63190 as auto-47B7266C-C5D3-B366-5AB1-41ED39B1D0C9 (p2, c1, k60).
+1724689523: No will message specified.
+1724689523: Sending CONNACK to auto-47B7266C-C5D3-B366-5AB1-41ED39B1D0C9 (0, 0)
+1724689523: Received PUBLISH from auto-47B7266C-C5D3-B366-5AB1-41ED39B1D0C9 (d0, q0, r0, m0, 'kame/temp', ... (12 bytes))
+1724689523: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (12 bytes))
+1724689523: Received DISCONNECT from auto-47B7266C-C5D3-B366-5AB1-41ED39B1D0C9
+1724689523: Client auto-47B7266C-C5D3-B366-5AB1-41ED39B1D0C9 disconnected.
+1724689573: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724689573: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724689633: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724689633: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724689693: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724689693: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724689754: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724689754: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724689814: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724689814: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724689873: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724689873: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724689933: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724689933: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724689993: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724689993: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690054: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690054: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690113: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690113: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690173: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690173: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690218: New connection from 192.168.1.23:65343 on port 1883.
+1724690218: New client connected from 192.168.1.23:65343 as M5Atom (p2, c1, k15).
+1724690218: No will message specified.
+1724690218: Sending CONNACK to M5Atom (0, 0)
+1724690218: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690218: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690224: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690224: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690229: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690229: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690233: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690233: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690234: Received PINGREQ from M5Atom
+1724690234: Sending PINGRESP to M5Atom
+1724690235: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690235: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690240: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690240: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690246: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690246: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690251: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690251: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690256: Received PINGREQ from M5Atom
+1724690256: Sending PINGRESP to M5Atom
+1724690257: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690257: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690262: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690262: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690268: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690268: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690274: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690274: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690278: Received PINGREQ from M5Atom
+1724690278: Sending PINGRESP to M5Atom
+1724690279: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690279: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690285: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690285: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690290: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690290: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690293: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690293: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690296: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690296: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690301: Received PINGREQ from M5Atom
+1724690301: Sending PINGRESP to M5Atom
+1724690301: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690301: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690307: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690307: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690312: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690312: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690318: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690318: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690323: Received PINGREQ from M5Atom
+1724690323: Sending PINGRESP to M5Atom
+1724690323: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690323: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690329: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690329: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690334: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690334: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690340: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690340: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690345: Received PINGREQ from M5Atom
+1724690345: Sending PINGRESP to M5Atom
+1724690345: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690345: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690351: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690351: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690354: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690354: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690356: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690356: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690362: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690362: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690367: Received PINGREQ from M5Atom
+1724690367: Sending PINGRESP to M5Atom
+1724690367: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690367: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690373: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690373: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690378: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690378: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690384: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690384: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690389: Received PINGREQ from M5Atom
+1724690389: Sending PINGRESP to M5Atom
+1724690389: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690389: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690395: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690395: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690400: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690400: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690406: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690406: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690411: Received PINGREQ from M5Atom
+1724690411: Sending PINGRESP to M5Atom
+1724690411: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690411: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690413: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690413: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690417: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690417: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690422: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690422: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690428: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690428: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690433: Received PINGREQ from M5Atom
+1724690433: Sending PINGRESP to M5Atom
+1724690433: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690433: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690439: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690439: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690444: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690444: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690450: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690450: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690455: Received PINGREQ from M5Atom
+1724690455: Sending PINGRESP to M5Atom
+1724690455: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690455: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690461: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690461: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690466: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690466: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690472: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690472: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690473: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690473: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690477: Received PINGREQ from M5Atom
+1724690477: Sending PINGRESP to M5Atom
+1724690477: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690477: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690483: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690483: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690489: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690489: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690494: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690494: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690499: Received PINGREQ from M5Atom
+1724690499: Sending PINGRESP to M5Atom
+1724690500: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690500: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690505: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690505: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690511: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690511: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690516: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690516: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690521: Received PINGREQ from M5Atom
+1724690521: Sending PINGRESP to M5Atom
+1724690522: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690522: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690527: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690527: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690533: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690533: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690534: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690534: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690538: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690538: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690543: Received PINGREQ from M5Atom
+1724690543: Sending PINGRESP to M5Atom
+1724690544: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690544: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690549: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690549: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690555: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690555: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690560: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690560: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690565: Received PINGREQ from M5Atom
+1724690565: Sending PINGRESP to M5Atom
+1724690566: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690566: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690571: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690571: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690577: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690577: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690582: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690582: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690587: Received PINGREQ from M5Atom
+1724690587: Sending PINGRESP to M5Atom
+1724690588: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690588: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690593: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690593: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690593: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690593: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690599: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690599: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690604: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690604: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690609: Received PINGREQ from M5Atom
+1724690609: Sending PINGRESP to M5Atom
+1724690610: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690610: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690615: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690615: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690621: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690621: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690626: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690626: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690631: Received PINGREQ from M5Atom
+1724690631: Sending PINGRESP to M5Atom
+1724690632: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690632: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690637: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690637: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690643: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690643: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690648: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690648: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690653: Received PINGREQ from M5Atom
+1724690653: Sending PINGRESP to M5Atom
+1724690653: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690653: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690654: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690654: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690659: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690659: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690665: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690665: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690671: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690671: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690675: Received PINGREQ from M5Atom
+1724690675: Sending PINGRESP to M5Atom
+1724690676: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690676: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690682: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690682: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690687: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690687: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690692: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690692: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690697: Received PINGREQ from M5Atom
+1724690697: Sending PINGRESP to M5Atom
+1724690698: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690698: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690704: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690704: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690709: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690709: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690713: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690713: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690715: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690715: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690720: Received PINGREQ from M5Atom
+1724690720: Sending PINGRESP to M5Atom
+1724690720: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690720: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690726: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690726: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690731: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690731: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690737: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690737: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690742: Received PINGREQ from M5Atom
+1724690742: Sending PINGRESP to M5Atom
+1724690742: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690742: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690748: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690748: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690753: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690753: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690759: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690759: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690764: Received PINGREQ from M5Atom
+1724690764: Sending PINGRESP to M5Atom
+1724690764: Received PUBLISH from M5Atom (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690764: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (4 bytes))
+1724690773: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690773: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690780: New connection from 192.168.1.23:55398 on port 1883.
+1724690780: New client connected from 192.168.1.23:55398 as abms_sensor (p2, c1, k15).
+1724690780: No will message specified.
+1724690780: Sending CONNACK to abms_sensor (0, 0)
+1724690785: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690785: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690789: Client M5Atom has exceeded timeout, disconnecting.
+1724690791: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690791: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690795: Received PINGREQ from abms_sensor
+1724690795: Sending PINGRESP to abms_sensor
+1724690802: New connection from 192.168.1.23:51650 on port 1883.
+1724690802: Client abms_sensor already connected, closing old connection.
+1724690802: New client connected from 192.168.1.23:51650 as abms_sensor (p2, c1, k15).
+1724690802: No will message specified.
+1724690802: Sending CONNACK to abms_sensor (0, 0)
+1724690807: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690807: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690813: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690813: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690817: Received PINGREQ from abms_sensor
+1724690817: Sending PINGRESP to abms_sensor
+1724690818: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690818: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690824: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690824: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690829: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690829: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690832: Received PINGREQ from abms_sensor
+1724690832: Sending PINGRESP to abms_sensor
+1724690833: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690833: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690835: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690835: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690840: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690840: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690846: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690846: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690847: Received PINGREQ from abms_sensor
+1724690847: Sending PINGRESP to abms_sensor
+1724690851: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690851: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690857: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690857: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690863: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690863: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690863: Received PINGREQ from abms_sensor
+1724690863: Sending PINGRESP to abms_sensor
+1724690868: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690868: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690873: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690873: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690878: Received PINGREQ from abms_sensor
+1724690878: Sending PINGRESP to abms_sensor
+1724690879: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690879: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690884: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690884: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690890: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690890: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690893: Received PINGREQ from abms_sensor
+1724690893: Sending PINGRESP to abms_sensor
+1724690893: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690893: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690895: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690895: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690901: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690901: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690906: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690906: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690908: Received PINGREQ from abms_sensor
+1724690908: Sending PINGRESP to abms_sensor
+1724690912: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690912: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690917: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690917: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690923: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690923: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690923: Received PINGREQ from abms_sensor
+1724690923: Sending PINGRESP to abms_sensor
+1724690928: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690928: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690934: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690934: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690938: Received PINGREQ from abms_sensor
+1724690938: Sending PINGRESP to abms_sensor
+1724690939: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690939: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690945: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690945: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690951: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690951: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690953: Received PINGREQ from abms_sensor
+1724690953: Sending PINGRESP to abms_sensor
+1724690954: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690954: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724690956: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690956: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690962: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690962: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690967: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690967: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690968: Received PINGREQ from abms_sensor
+1724690968: Sending PINGRESP to abms_sensor
+1724690973: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690973: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690978: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690978: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690984: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690984: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690984: Received PINGREQ from abms_sensor
+1724690984: Sending PINGRESP to abms_sensor
+1724690989: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690989: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690995: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690995: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724690999: Received PINGREQ from abms_sensor
+1724690999: Sending PINGRESP to abms_sensor
+1724691000: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691000: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691006: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691006: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691011: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691011: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691013: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724691013: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724691014: Received PINGREQ from abms_sensor
+1724691014: Sending PINGRESP to abms_sensor
+1724691017: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691017: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691022: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691022: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691028: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691028: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691029: Received PINGREQ from abms_sensor
+1724691029: Sending PINGRESP to abms_sensor
+1724691033: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691033: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691039: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691039: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691044: Received PINGREQ from abms_sensor
+1724691044: Sending PINGRESP to abms_sensor
+1724691044: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691044: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691050: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691050: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691055: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691055: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691059: Received PINGREQ from abms_sensor
+1724691059: Sending PINGRESP to abms_sensor
+1724691061: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691061: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691066: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691066: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691072: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691072: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691074: Received PINGREQ from abms_sensor
+1724691074: Sending PINGRESP to abms_sensor
+1724691074: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724691074: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724691077: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691077: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691083: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691083: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691088: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691088: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691089: Received PINGREQ from abms_sensor
+1724691089: Sending PINGRESP to abms_sensor
+1724691094: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691094: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691099: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691099: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691104: Received PINGREQ from abms_sensor
+1724691104: Sending PINGRESP to abms_sensor
+1724691105: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691105: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691110: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691110: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691116: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691116: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691119: Received PINGREQ from abms_sensor
+1724691119: Sending PINGRESP to abms_sensor
+1724691121: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691121: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691127: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691127: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691132: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691132: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691133: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724691133: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724691134: Received PINGREQ from abms_sensor
+1724691134: Sending PINGRESP to abms_sensor
+1724691138: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691138: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691143: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691143: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691149: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691149: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691149: Received PINGREQ from abms_sensor
+1724691149: Sending PINGRESP to abms_sensor
+1724691155: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691155: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691160: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691160: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691165: Received PINGREQ from abms_sensor
+1724691165: Sending PINGRESP to abms_sensor
+1724691166: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691166: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691171: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691171: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691177: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691177: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691180: Received PINGREQ from abms_sensor
+1724691180: Sending PINGRESP to abms_sensor
+1724691182: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691182: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691188: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691188: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691193: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691193: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691193: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724691193: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724691195: Received PINGREQ from abms_sensor
+1724691195: Sending PINGRESP to abms_sensor
+1724691199: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691199: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691204: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691204: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691210: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691210: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691210: Received PINGREQ from abms_sensor
+1724691210: Sending PINGRESP to abms_sensor
+1724691215: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691215: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691221: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691221: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691225: Received PINGREQ from abms_sensor
+1724691225: Sending PINGRESP to abms_sensor
+1724691226: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691226: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691232: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691232: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691237: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691237: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691240: Received PINGREQ from abms_sensor
+1724691240: Sending PINGRESP to abms_sensor
+1724691243: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691243: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691248: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691248: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691253: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724691253: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724691254: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691254: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691255: Received PINGREQ from abms_sensor
+1724691255: Sending PINGRESP to abms_sensor
+1724691259: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691259: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691265: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691265: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691270: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691270: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691270: Received PINGREQ from abms_sensor
+1724691270: Sending PINGRESP to abms_sensor
+1724691276: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691276: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691281: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691281: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691285: Received PINGREQ from abms_sensor
+1724691285: Sending PINGRESP to abms_sensor
+1724691287: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691287: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691292: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691292: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691298: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691298: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691300: Received PINGREQ from abms_sensor
+1724691300: Sending PINGRESP to abms_sensor
+1724691303: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691303: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691309: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691309: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691313: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724691313: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724691314: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691314: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691316: Received PINGREQ from abms_sensor
+1724691316: Sending PINGRESP to abms_sensor
+1724691320: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691320: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691325: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691325: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691331: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691331: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691331: Received PINGREQ from abms_sensor
+1724691331: Sending PINGRESP to abms_sensor
+1724691336: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691336: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691342: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691342: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691346: Received PINGREQ from abms_sensor
+1724691346: Sending PINGRESP to abms_sensor
+1724691347: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691347: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691353: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691353: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691359: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691359: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691361: Received PINGREQ from abms_sensor
+1724691361: Sending PINGRESP to abms_sensor
+1724691364: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691364: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691369: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691369: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691373: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724691373: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724691375: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691375: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691376: Received PINGREQ from abms_sensor
+1724691376: Sending PINGRESP to abms_sensor
+1724691381: Received PUBLISH from abms_sensor (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691381: Sending PUBLISH to auto-4490245D-53C5-331A-A413-C782D65E1FBC (d0, q0, r0, m0, 'kame/temp', ... (5 bytes))
+1724691407: Client abms_sensor has exceeded timeout, disconnecting.
+1724691434: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724691434: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724691493: Received PINGREQ from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724691493: Sending PINGRESP to auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724691502: Received DISCONNECT from auto-4490245D-53C5-331A-A413-C782D65E1FBC
+1724691502: Client auto-4490245D-53C5-331A-A413-C782D65E1FBC disconnected.
+1724691504: mosquitto version 2.0.18 terminating

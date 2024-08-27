@@ -14,6 +14,7 @@ RUN apt-get install libcjson1 libmosquitto1 mosquitto-clients
 RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
 
+RUN python -m pip install paho-mqtt
 RUN python -m pip install "fastapi[all]"
 RUN python -m pip install grove.py
 
