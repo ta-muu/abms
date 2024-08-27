@@ -2,6 +2,7 @@ services:
   # database:
   #   build: ./database
   #   container_name: 'database'
+  
   backend:
     build: ./backend/docker
     restart: always
@@ -15,16 +16,6 @@ services:
       - ./backend:/opt/backend
     working_dir: /opt/backend
     # command: python3 manage.py runserver 0.0.0.0:8000
-
-  sensor:
-    build: ./sensor/docker
-    restart: always
-    container_name: 'sensor'
-    ports:
-      - "1884:1884"
-    volumes:
-      - ./sensor:/opt/sensor
-    working_dir: /opt/sensor
   
   broker:
     build: ./broker/docker
@@ -43,7 +34,7 @@ services:
     restart: always
     container_name: 'sensor_subscriber'
     ports:
-      - "1885:1885"
+      - "1884:1884"
     tty: true
     volumes:
       - ./sensor_subscriber:/opt/brsensor_subscriberoker
