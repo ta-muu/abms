@@ -21,7 +21,7 @@ services:
     restart: always
     container_name: 'sensor'
     ports:
-      - "8001:8001"
+      - "1884:1884"
     volumes:
       - ./sensor:/opt/sensor
     working_dir: /opt/sensor
@@ -30,15 +30,22 @@ services:
     build: ./broker/docker
     restart: always
     container_name: 'broker'
-    # depends_on:
-    #   - database
-    # environment:
     ports:
       - "1883:1883"
     tty: true
-    expose:
-        - 1883
     volumes:
       - ./broker:/opt/broker
     working_dir: /opt/broker
     command: mosquitto -c /opt/broker/mosquitto.conf
+
+  sensor_subscriber:
+    build: ./sensor_subscriber/docker
+    restart: always
+    container_name: 'sensor_subscriber'
+    ports:
+      - "1885:1885"
+    tty: true
+    volumes:
+      - ./sensor_subscriber:/opt/brsensor_subscriberoker
+    working_dir: /opt/sensor_subscriber
+    command: mosquitto_sub -d -h 192.168.1.18 -p 1883 -t kame/temp
