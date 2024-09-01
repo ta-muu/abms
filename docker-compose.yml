@@ -2,6 +2,7 @@ services:
   # database:
   #   build: ./database
   #   container_name: 'database'
+
   backend:
     build: ./backend/docker
     restart: always
@@ -14,31 +15,32 @@ services:
     volumes:
       - ./backend:/opt/backend
     working_dir: /opt/backend
-    # command: python3 manage.py runserver 0.0.0.0:8000
-
-  sensor:
-    build: ./sensor/docker
-    restart: always
-    container_name: 'sensor'
-    ports:
-      - "8001:8001"
-    volumes:
-      - ./sensor:/opt/sensor
-    working_dir: /opt/sensor
+    command: python3 manage.py runserver 0.0.0.0:8000
   
   broker:
     build: ./broker/docker
     restart: always
     container_name: 'broker'
-    # depends_on:
-    #   - database
-    # environment:
     ports:
       - "1883:1883"
     tty: true
-    expose:
-        - 1883
     volumes:
       - ./broker:/opt/broker
     working_dir: /opt/broker
     command: mosquitto -c /opt/broker/mosquitto.conf
+
+  subscriber:
+    build: ./sensor_subscriber/docker
+    restart: always
+    container_name: 'subscriber'
+    depends_on:
+      - backend
+      - broker
+    ports:
+      - "1884:1884"
+    tty: true
+    volumes:
+      - ./sensor_subscriber:/opt/sensor_subscriber
+    working_dir: /opt/sensor_subscriber
+    # command: python /opt/sensor_subscriber/subscribe.py
+    # command: mosquitto_sub -d -h 192.168.1.18 -p 1883 -t kame/temp
