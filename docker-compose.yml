@@ -4,18 +4,15 @@ services:
   #   container_name: 'database'
 
   backend:
-    build: ./backend/docker
+    build: ./backend
     restart: always
     container_name: 'backend'
     # depends_on:
     #   - database
     # environment:
+    tty: true
     ports:
       - "8000:8000"
-    volumes:
-      - ./backend:/opt/backend
-    working_dir: /opt/backend
-    command: python3 manage.py runserver 0.0.0.0:8000
   
   broker:
     build: ./broker/docker

@@ -12,8 +12,11 @@ ENV TZ JST-9
 RUN apt-get install -y vim less
 RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
+RUN pip install django
+RUN pip install djangorestframework
 
-RUN python -m pip install django
-RUN python -m pip install djangorestframework
+RUN mkdir -p /opt/backend/
+COPY ./src/ /opt/backend/
 
-RUN mkdir -p /opt/backend
+WORKDIR /opt/backend
+CMD ["python3", "manage.py", "runserver", "0.0.0.0:8000"]
