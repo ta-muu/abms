@@ -9,12 +9,24 @@ services:
     container_name: 'backend'
     # depends_on:
     #   - database
-    # environment:
     tty: true
     ports:
       - "8000:8000"
     volumes:
       - ./backend/src:/opt/backend
+
+  frontend:
+    build: ./frontend
+    restart: always
+    container_name: 'frontend'
+    # depends_on:
+    #   - database
+    tty: true
+    ports:
+      - "80:80"
+    volumes:
+      - ./frontend/src:/opt/frontend
+    
   
   broker:
     build: ./broker/docker
