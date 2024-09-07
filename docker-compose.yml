@@ -24,9 +24,7 @@ services:
       - "1883:1883"
     tty: true
     volumes:
-      - ./broker:/opt/broker
-    working_dir: /opt/broker
-    command: mosquitto -c /opt/broker/mosquitto.conf
+      - ./broker/src:/opt/broker
 
   subscriber:
     build: ./sensor_subscriber
