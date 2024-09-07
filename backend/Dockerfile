@@ -1,6 +1,9 @@
 FROM python:3.12.4-bullseye
 USER root
 
+ENV BACKEND_IP_ADDRESS 0.0.0.0
+ENV BACKEND_PORT 8000
+
 RUN apt-get update
 RUN apt-get -y install locales && \
     localedef -f UTF-8 -i ja_JP ja_JP.UTF-8
@@ -19,4 +22,5 @@ RUN mkdir -p /opt/backend/
 COPY ./src/ /opt/backend/
 
 WORKDIR /opt/backend
-CMD ["python3", "manage.py", "runserver", "0.0.0.0:8000"]
+# CMD ["python3", "manage.py", "runserver", ${BACKEND_IP_ADDRESS}:${BACKEND_PORT}]
+CMD python3 manage.py runserver $BACKEND_IP_ADDRESS:$BACKEND_PORT

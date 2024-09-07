@@ -13,6 +13,8 @@ services:
     tty: true
     ports:
       - "8000:8000"
+    volumes:
+      - ./backend/src:/opt/backend
   
   broker:
     build: ./broker/docker
@@ -27,7 +29,7 @@ services:
     command: mosquitto -c /opt/broker/mosquitto.conf
 
   subscriber:
-    build: ./sensor_subscriber/docker
+    build: ./sensor_subscriber
     restart: always
     container_name: 'subscriber'
     depends_on:
@@ -37,7 +39,4 @@ services:
       - "1884:1884"
     tty: true
     volumes:
-      - ./sensor_subscriber:/opt/sensor_subscriber
-    working_dir: /opt/sensor_subscriber
-    # command: python /opt/sensor_subscriber/subscribe.py
-    # command: mosquitto_sub -d -h 192.168.1.18 -p 1883 -t kame/temp
+      - ./sensor_subscriber/src:/opt/sensor_subscriber

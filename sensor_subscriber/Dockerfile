@@ -1,6 +1,8 @@
 FROM python:3.12.4-bullseye
-# FROM eclipse-mosquitto:2.0.18
 USER root
+
+ENV BROKER_IP_ADRESS 192.168.1.18
+ENV BROKER_PORT 8000
 
 RUN apt-get update
 RUN apt-get -y install locales && \
@@ -18,3 +20,7 @@ RUN pip install paho-mqtt
 RUN pip install requests
 
 RUN mkdir -p /opt/sensor_subscriber
+COPY ./src/ /opt/sensor_subscriber/
+
+WORKDIR /opt/sensor_subscriber
+CMD python subscribe.py
