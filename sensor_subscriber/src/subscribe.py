@@ -18,14 +18,13 @@ def on_connect(client, userdata, flags, respons_code):
     print("status {0}".format(respons_code))
     for measured_value in measured_value_list:
         client.subscribe(measured_value)
-        logger.info(f"Start subscribing a topic \"{measured_value}\"")
+        logger.info(f"Start subscribing -- topic:{measured_value}")
 
 
 def on_message(client, userdata, msg):
-    url = f"http://{backend_ip}:{backend_port}/api/{msg.topic}/"
-    measured_value = str(msg.payload)[2:-1]
-    print(measured_value)
-    # tank_idも同時にsubscribeする形にする
+    url = f"http://{backend_ip}:{backend_port}/api/{msg.topic}/"    # POST先のURLを指定
+    tank_id, measured_value = str(msg.payload)[2:-1].split('/')     # msg.payload = b"1/20" => tank_id = 1, measured_value = 20
+    logger.debug(f"Received message -- topic: {msg.topic}, tank id:{tank_id}, value: {measured_value}")
     data = {"tank_id": tank_id, "water_temperature": measured_value}
     response = requests.post(url, data=data)
 
