@@ -8,6 +8,22 @@
 #include <DallasTemperature.h>
 #include <RTClib.h>
 
+
+// --設定値--
+
+const char* ssid = "SGP200W-17A6-bg";     // Wi-FiのSSID
+const char* password = "6fJN2mZa";        // Wi-Fiのパスワード
+
+const char* mqtt_server = "192.168.1.18"; // MQTTブローカーのIPアドレス
+const int mqtt_port = 1883;               // MQTTブローカーのデフォルトポート
+
+const int tank_id = 1;                    //センサーを取り付けている水槽のID
+
+const unsigned long sleepTime = 5000;     // データ取得間隔[ms]
+
+// -------
+
+
 #define MQTT_CLIENT_NAME  "abms_sensor"
 
 #define ONE_WIRE_BUS 1 // for M5ATOMS3 port number G1 and Pull_up
@@ -17,21 +33,13 @@ OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature sensors(&oneWire);
 DeviceAddress tempDeviceAddress;
 
-// Wi-FiのSSIDとパスワードを設定
-const char* ssid = "SGP200W-17A6-bg";
-const char* password = "6fJN2mZa";
-
-// MQTTブローカーの情報を設定
-const char* mqtt_server = "192.168.1.18";
-const int mqtt_port = 1883; // デフォルトのポート
-
-unsigned long sleepStartTime = 0;
-const unsigned long sleepTime = 5000; // 5sec
-
 WiFiClient espClient;
 PubSubClient client(espClient);
 
 RTC_DS3231 rtc;
+
+unsigned long sleepStartTime = 0;
+
 
 void setup() {
   Serial.begin(38400);
@@ -51,6 +59,7 @@ void setup() {
     rtc.adjust(DateTime(F(__DATE__),F(__TIME__)));
   }
 }
+
 
 void setup_wifi() {
   delay(10);
@@ -72,6 +81,7 @@ void setup_wifi() {
   Serial.println(WiFi.localIP());
 }
 
+
 void loop(void) {
   client.loop();
 
@@ -80,19 +90,38 @@ void loop(void) {
     if( client.connect(MQTT_CLIENT_NAME) ){
       Serial.println("Mqtt Connected");
       break;
+    } else {
+      Serial.println("Fail");
     }
     delay(1000);
   }
 
+  // String tank_id_str = String(tank_id);
+
   if(millis() - sleepStartTime >= sleepTime){
 
-    sensors.requestTemperatures(); // request temp.
-    String str = String(sensors.getTempCByIndex(0));
+    // 水温の取得
+    sensors.requestTemperatures();
+
+    //この行移行をあとで関数にする
+    const float water_temperatures = sensors.getTempCByIndex(0);
+    // String water_temperatures_str = String(sensors.getTempCByIndex(0)); 
+
+    // メッセージの作成
+    String message_water_temperatures = "";
+    message_water_temperatures += tank_id;
+    message_water_temperatures += "/";
+    message_water_temperatures += water_temperatures;
+
+    // brokerへ送信
+    const char* message_water_temperatures_pointer = message_water_temperatures.c_str();
+    client.publish("water_temperatures", message_water_temperatures_pointer);
+
+    // ログを表示
     Serial.print(millis());
-    Serial.print(str);
+    Serial.print(water_temperatures);
     Serial.println(F("°C"));
-    const char* cString = str.c_str();
-    client.publish("kame/temp", cString);
+
     sleepStartTime = millis();
 
   }
