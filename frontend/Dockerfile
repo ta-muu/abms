@@ -1,8 +1,8 @@
-FROM python:3.12.4-bullseye
+FROM node:22-bullseye
 USER root
 
 ENV FRONTEND_IP_ADDRESS 0.0.0.0
-ENV FRONTEND_PORT 8000
+ENV FRONTEND_PORT 5173
 
 RUN apt-get update
 RUN apt-get -y install locales && \
@@ -15,5 +15,7 @@ ENV TZ JST-9
 RUN mkdir -p /opt/frontend/
 COPY ./src/ /opt/frontend/
 
-WORKDIR /opt/frontend
-# CMD python3 manage.py runserver $BACKEND_IP_ADDRESS:$BACKEND_PORT
+EXPOSE $FRONTEND_PORT
+
+WORKDIR /opt/frontend/
+CMD npm install | npm run dev

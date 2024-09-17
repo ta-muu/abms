@@ -12,6 +12,9 @@ services:
     tty: true
     ports:
       - "8000:8000"
+    networks:
+      - share-favplace
+      - backend
     volumes:
       - ./backend/src:/opt/backend
 
@@ -23,11 +26,12 @@ services:
     #   - database
     tty: true
     ports:
-      - "80:80"
+      - "5173:5173"
+    networks:
+      - frontend
     volumes:
       - ./frontend/src:/opt/frontend
     
-  
   broker:
     build: ./broker
     restart: always
