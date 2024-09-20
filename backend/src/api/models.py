@@ -9,32 +9,38 @@ class User(models.Model):
 	mail_address = models.EmailField()
 
 class Tank(models.Model):
+	tank_name = models.CharField(max_length=50)
 	created_at = models.DateTimeField(auto_now_add=True)
 	updated_at = models.DateTimeField(auto_now=True)
 	deleted_at = models.DateTimeField(blank=True, null=True)
-	turbidity_threshold = models.FloatField()
 
 class Individual(models.Model):
+	individual_name = models.CharField(max_length=50)
 	created_at = models.DateTimeField(auto_now_add=True)
 	updated_at = models.DateTimeField(auto_now=True)
 	deleted_at = models.DateTimeField(blank=True, null=True)
 	tank_id = models.IntegerField()
 
 class Sensor(models.Model):
+	sensor_name = models.CharField(max_length=50)
 	created_at = models.DateTimeField(auto_now_add=True)
 	updated_at = models.DateTimeField(auto_now=True)
 	deleted_at = models.DateTimeField(blank=True, null=True)
 	tank_id = models.IntegerField()
+	water_temperature_upper_limit = models.FloatField()
+	water_temperature_lower_limit = models.FloatField()
+	turbidity_upper_limit = models.FloatField()
+	turbidity_lower_limit = models.FloatField()
 
 
 class WaterTemperature(models.Model):
 	created_at = models.DateTimeField(auto_now_add=True)
 	updated_at = models.DateTimeField(auto_now=True)
-	tank_id = models.IntegerField()
+	sensor_id = models.IntegerField()
 	water_temperature = models.FloatField()
 
 class Turbidity(models.Model):
 	created_at = models.DateTimeField(auto_now_add=True)
 	updated_at = models.DateTimeField(auto_now=True)
-	tank_id = models.IntegerField()
+	sensor_id = models.IntegerField()
 	turbidity = models.FloatField()
