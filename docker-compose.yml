@@ -12,9 +12,6 @@ services:
     tty: true
     ports:
       - "8000:8000"
-    networks:
-      - share-favplace
-      - backend
     volumes:
       - ./backend/src:/opt/backend
 
@@ -27,8 +24,6 @@ services:
     tty: true
     ports:
       - "5173:5173"
-    networks:
-      - frontend
     volumes:
       - ./frontend/src:/opt/frontend
     
