@@ -19,7 +19,7 @@ export default function Navigation({setContentState}) {
     { name: "report", text: "レポート", command: () => {setContentState('report')} },
     { name: "tanks", text: "水槽", command: () => {setContentState('tanks')} },
     { name: "sensors", text: "センサー", command: () => {setContentState('sensors')} },
-    { name: "inidividuals", text: "生体", command: () => {setContentState('indivisuals')}  },
+    { name: "inidividuals", text: "生体", command: () => {setContentState('individuals')}  },
   ];
 
   return (

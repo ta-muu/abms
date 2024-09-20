@@ -11,21 +11,20 @@ const columns = [
 const rows = [
     {
         "id": 1,
-        "name": "生体1",
+        "name": "魚1",
         "tank_name": "タンク1",
-        "water_temperature_threshold": "10/6",
     }
 ];
 
 const paginationModel = { page: 0, pageSize: 10 };
 
-export default function Tanks() {
-  const [tanksState, setTanksState] = useState(rows);
+export default function Individuals() {
+  const [individualsState, setIndividualsState] = useState(rows);
 
   return (
     <Paper sx={{ height: 1000, width: "100%" }}>
       <DataGrid
-        rows={tanksState}
+        rows={individualsState}
         columns={columns}
         initialState={{ pagination: { paginationModel } }}
         pageSizeOptions={[10, 100]}

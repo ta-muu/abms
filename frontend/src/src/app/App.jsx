@@ -9,7 +9,7 @@ import Navigation from "./utils/Navigation";
 import Report from "./report/Content";
 import Tanks from "./tanks/Content";
 import Sensors from "./sensors/Content";
-import Indivisuals from "./indivisuals/Content";
+import Individuals from "./individuals/Content";
 
 export default function ClippedDrawer() {
   const initContentState = "report";
@@ -39,10 +39,10 @@ export default function ClippedDrawer() {
             </>
           );
 
-        case 'indivisuals':
+        case 'individuals':
           return (
             <>
-              <Indivisuals />
+              <Individuals />
             </>
           );
     }

@@ -14,7 +14,6 @@ export default function Report() {
     var data = google.visualization.arrayToDataTable(rows);
 
     var options = {
-      title: "パラメータ変化",
       legend: { position: "bottom" },
     };
 
