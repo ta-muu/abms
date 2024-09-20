@@ -17,7 +17,7 @@ const char* password = "6fJN2mZa";        // Wi-Fiのパスワード
 const char* mqtt_server = "192.168.1.18"; // MQTTブローカーのIPアドレス
 const int mqtt_port = 1883;               // MQTTブローカーのデフォルトポート
 
-const int tank_id = 1;                    //センサーを取り付けている水槽のID
+const int sensor_id = 1;                    //センサーID
 
 const unsigned long sleepTime = 5000;     // データ取得間隔[ms]
 
@@ -96,7 +96,7 @@ void loop(void) {
     delay(1000);
   }
 
-  // String tank_id_str = String(tank_id);
+  // String sensor_id_str = String(sensor_id);
 
   if(millis() - sleepStartTime >= sleepTime){
 
@@ -109,7 +109,7 @@ void loop(void) {
 
     // メッセージの作成
     String message_water_temperatures = "";
-    message_water_temperatures += tank_id;
+    message_water_temperatures += sensor_id;
     message_water_temperatures += "/";
     message_water_temperatures += water_temperatures;
 
