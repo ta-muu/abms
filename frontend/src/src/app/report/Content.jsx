@@ -2,8 +2,8 @@ import Typography from "@mui/material/Typography";
 
 const rows = [
 	["時系列", "水温"],
-	["9/17", 10],
-	["9/18", 5],
+	["9/17 11:00", 10],
+	["9/18 12:00", 5],
   ];
 
 export default function Report() {
