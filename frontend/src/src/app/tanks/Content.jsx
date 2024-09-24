@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { DataGrid } from "@mui/x-data-grid";
+import Typography from "@mui/material/Typography";
 import Paper from "@mui/material/Paper";
 
 const columns = [
@@ -20,15 +21,18 @@ export default function Tanks() {
   const [tanksState, setTanksState] = useState(rows);
 
   return (
-    <Paper sx={{ height: 1000, width: "100%" }}>
-      <DataGrid
-        rows={tanksState}
-        columns={columns}
-        initialState={{ pagination: { paginationModel } }}
-        pageSizeOptions={[10, 100]}
-        // checkboxSelection
-        sx={{ border: 0 }}
-      />
-    </Paper>
+    <>
+      <Typography variant="h4">水槽</Typography>
+      <Paper sx={{ height: 1000, width: "100%" }}>
+        <DataGrid
+          rows={tanksState}
+          columns={columns}
+          initialState={{ pagination: { paginationModel } }}
+          pageSizeOptions={[10, 100]}
+          // checkboxSelection
+          sx={{ border: 0 }}
+        />
+      </Paper>
+    </>
   );
 }
