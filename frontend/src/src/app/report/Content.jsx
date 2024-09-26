@@ -1,5 +1,19 @@
-import { FormControl, InputLabel, Select, MenuItem } from "@mui/material";
-import Typography from "@mui/material/Typography";
+import { useState } from "react";
+import dayjs from "dayjs";
+import {
+  Typography,
+  FormControl,
+  InputLabel,
+  Select,
+  MenuItem,
+  Box,
+  Stack,
+} from "@mui/material";
+import { LocalizationProvider } from "@mui/x-date-pickers";
+import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
+import { DatePicker } from "@mui/x-date-pickers/DatePicker";
+import AlertBox from "./Alert";
+import GraphBox from "./Graph";
 
 const rows = [
   ["時間", "水温", "閾値上限", "閾値下限"],
@@ -9,60 +23,30 @@ const rows = [
   ["", null, 8, 2],
 ];
 
-const tankList = [
+const initialTankList = [
   { id: 1, name: "水槽1" },
   { id: 2, name: "水槽2" },
 ];
 
+const initialAlertList = [
+  { datetime: "2024-09-27 15:00", text: "水温が閾値を上回りました (20℃)" },
+  { datetime: "2024-09-26 15:00", text: "水温が閾値を上回りました (20℃)" },
+];
+
 export default function Report() {
-  // google.charts.load("current", { packages: ["corechart"] });
-  // google.charts.setOnLoadCallback(drawChart);
+  const [alertList, setAlertList] = useState(initialAlertList);
 
-  // function drawChart() {
-  //   var data = google.visualization.arrayToDataTable(rows);
-
-  //   var options = {
-  //     colors: ['#3366CC', 'Red', 'Red'],
-  //     legend: { position: "bottom" },
-  //     hAxis: {
-  //       // ticks: [{v: 1, f: 'Quant'}, {v: 2, f: 'Verbal'}, {v: 3, f: 'Total'}],
-  //       viewWindow: {
-  //         min: 0.5,
-  //         max: 3.5
-  //       }
-  //     }
-  //   };
-
-  //   var chart = new google.visualization.LineChart(
-  //     document.getElementById("curve_chart")
-  //   );
-
-  //   chart.draw(data, options);
-  // }
-
-  const MakeMenuItem = ({tanks}) => {
-    const list = tanks.map(tank => {
-      return (
-        <MenuItem>{tank.name}</MenuItem>
-      );
-    });
-    return (<Select
-      labelId="demo-simple-select-label"
-      id="demo-simple-select"
-      label="Age"
-    >{list}</Select>) 
-  };
-  // const MakeMenuItem = (({id, name}) => {return(<MenuItem value={id}>{name}</MenuItem>)});
+  const [tankList, setTankList] = useState(initialTankList);
+  
   return (
     <>
-      <MakeMenuItem />
-      <Typography variant="h4">レポート</Typography>
-      <FormControl fullWidth>
-        <InputLabel id="demo-simple-select-label">水槽</InputLabel>
-        <MakeMenuItem tanks={tankList}/>
-        
-      </FormControl>
-      {/* <div id="curve_chart"></div> */}
+      <Box sx={{ width: "100%" }}>
+        <Stack spacing={5}>
+          <Typography variant="h4">レポート</Typography>
+          <AlertBox alertList={alertList} />
+          <GraphBox tankList={tankList} />
+        </Stack>
+      </Box>
     </>
   );
 }
