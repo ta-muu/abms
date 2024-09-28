@@ -26,7 +26,7 @@ export default function Navigation({setContentState}) {
       <Toolbar />
       <Box sx={{ overflow: "auto" }}>
         <List>
-          {menuItem.map(({ name, text, path, command }) => (
+          {menuItem.map(({ name, text, path}) => (
             <ListItem key={name} disablePadding>
               <ListItemButton
                 href={path}>
