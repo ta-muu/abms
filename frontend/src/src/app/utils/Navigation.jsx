@@ -1,14 +1,22 @@
 import { useState } from "react";
-import {Box, Drawer, Toolbar, List, ListItem, ListItemButton, ListItemText} from "@mui/material";
+import {
+  Box,
+  Drawer,
+  Toolbar,
+  List,
+  ListItem,
+  ListItemButton,
+  ListItemText,
+} from "@mui/material";
 
-export default function Navigation({setContentState}) {
+export default function Navigation({ setContentState }) {
   const drawerWidth = 240;
 
   const menuItem = [
-    { name: "report", text: "レポート", path: "/"},
-    { name: "tanks", text: "水槽", path: "/tanks"},
-    { name: "sensors", text: "センサー", path: "/sensors"},
-    { name: "inidividuals", text: "生体", path: "/individuals"},
+    { name: "report", text: "レポート", path: "/" },
+    { name: "tanks", text: "水槽", path: "/tanks" },
+    { name: "sensors", text: "センサー", path: "/sensors" },
+    { name: "inidividuals", text: "生体", path: "/individuals" },
   ];
 
   return (
@@ -28,8 +36,7 @@ export default function Navigation({setContentState}) {
         <List>
           {menuItem.map(({ name, text, path }) => (
             <ListItem key={name} disablePadding>
-              <ListItemButton
-                href={path}>
+              <ListItemButton href={path}>
                 <ListItemText primary={text} />
               </ListItemButton>
             </ListItem>
