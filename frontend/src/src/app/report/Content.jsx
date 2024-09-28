@@ -2,27 +2,31 @@ import { useState } from "react";
 import dayjs from "dayjs";
 import {
   Typography,
-  FormControl,
-  InputLabel,
-  Select,
-  MenuItem,
   Box,
   Stack,
 } from "@mui/material";
-import { LocalizationProvider } from "@mui/x-date-pickers";
-import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
-import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 import AlertBox from "./Alert";
-import GraphBox from "./Graph";
+import LogBox from "./Log";
 
-const rows = [
-  ["時間", "水温", "閾値上限", "閾値下限"],
-  ["", null, 8, 2],
-  ["9/17 11:00", 10, 8, 2],
-  ["9/18 12:00", 5, 8, 2],
-  ["", null, 8, 2],
-];
-
+const data = {
+  labels: ["09/20 00:00", "02:00", "04:00", "06:00", "08:00", "10:00", "12:00", "14:00", "16:00", "18:00", "20:00", "22:00",
+          "09/21 00:00", "02:00", "04:00", "06:00", "08:00", "10:00", "12:00", "14:00", "16:00", "18:00", "20:00", "22:00",
+          "09/22 00:00", "02:00", "04:00", "06:00", "08:00", "10:00", "12:00", "14:00", "16:00", "18:00", "20:00", "22:00",
+          "09/23 00:00", "02:00", "04:00", "06:00", "08:00", "10:00", "12:00", "14:00", "16:00", "18:00", "20:00", "22:00",
+          "09/24 00:00", "02:00", "04:00", "06:00", "08:00", "10:00", "12:00", "14:00", "16:00", "18:00", "20:00", "22:00",
+          "09/25 00:00", "02:00", "04:00", "06:00", "08:00", "10:00", "12:00", "14:00", "16:00", "18:00", "20:00", "22:00",
+          "09/26 00:00", "02:00", "04:00", "06:00", "08:00", "10:00", "12:00", "14:00", "16:00", "18:00", "20:00", "22:00",
+          "09/27 00:00", "02:00", "04:00", "06:00", "08:00", "10:00", "12:00", "14:00", "16:00", "18:00", "20:00", "22:00",
+  ],
+  datasets: [
+    {
+      label: "センサーユニット1",
+      data: [10, 20, 30, 20, 10, 20, 30, 20, 10, 20, 30, 20, 10, 20, 30, 20, 20, 10, 20, 30, 20, 10, 20, 30, 20, 10, 20, 30, 20],
+      tension: 0.5, 
+      backgroundColor: "rgba(75, 192, 192, 0.6)",
+    },
+  ],
+};
 const initialTankList = [
   { id: 1, name: "水槽1" },
   { id: 2, name: "水槽2" },
@@ -37,14 +41,14 @@ export default function Report() {
   const [alertList, setAlertList] = useState(initialAlertList);
 
   const [tankList, setTankList] = useState(initialTankList);
-  
+
   return (
     <>
       <Box sx={{ width: "100%" }}>
         <Stack spacing={5}>
           <Typography variant="h4">レポート</Typography>
           <AlertBox alertList={alertList} />
-          <GraphBox tankList={tankList} />
+          <LogBox tankList={tankList} data={data} />
         </Stack>
       </Box>
     </>
