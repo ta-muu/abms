@@ -1,25 +1,14 @@
 import { useState } from "react";
-import Box from "@mui/material/Box";
-import Drawer from "@mui/material/Drawer";
-import Toolbar from "@mui/material/Toolbar";
-import List from "@mui/material/List";
-import Link from "@mui/material/Link";
-import Divider from "@mui/material/Divider";
-import ListItem from "@mui/material/ListItem";
-import ListItemButton from "@mui/material/ListItemButton";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import ListItemText from "@mui/material/ListItemText";
-import InboxIcon from "@mui/icons-material/MoveToInbox";
-import MailIcon from "@mui/icons-material/Mail";
+import {Box, Drawer, Toolbar, List, ListItem, ListItemButton, ListItemText} from "@mui/material";
 
 export default function Navigation({setContentState}) {
   const drawerWidth = 240;
 
   const menuItem = [
-    { name: "report", text: "レポート", command: () => {setContentState('report')} },
-    { name: "tanks", text: "水槽", command: () => {setContentState('tanks')} },
-    { name: "sensors", text: "センサー", command: () => {setContentState('sensors')} },
-    { name: "inidividuals", text: "生体", command: () => {setContentState('individuals')}  },
+    { name: "report", text: "レポート", path: "/"},
+    { name: "tanks", text: "水槽", path: "/tanks"},
+    { name: "sensors", text: "センサー", path: "/sensors"},
+    { name: "inidividuals", text: "生体", path: "/individuals"},
   ];
 
   return (
@@ -37,10 +26,10 @@ export default function Navigation({setContentState}) {
       <Toolbar />
       <Box sx={{ overflow: "auto" }}>
         <List>
-          {menuItem.map(({ name, text, command }) => (
+          {menuItem.map(({ name, text, path, command }) => (
             <ListItem key={name} disablePadding>
               <ListItemButton
-                 onClick={command}>
+                href={path}>
                 <ListItemText primary={text} />
               </ListItemButton>
             </ListItem>

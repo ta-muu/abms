@@ -1,8 +1,8 @@
-import { useState, useContext, createContext } from "react";
+import { useState } from "react";
+import { Routes, Route } from "react-router-dom";
 import Box from "@mui/material/Box";
 import CssBaseline from "@mui/material/CssBaseline";
 import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
 
 import Header from "./utils/Header";
 import Navigation from "./utils/Navigation";
@@ -13,40 +13,7 @@ import Individuals from "./individuals/Content";
 
 export default function ClippedDrawer() {
   const initContentState = "report";
-
   const [contentState, setContentState] = useState(initContentState);
-
-  const Content = () => {
-    switch (contentState) {
-      case 'report':
-        return (
-          <>
-            <Report />
-          </>
-        );
-
-      case 'tanks':
-        return (
-          <>
-            <Tanks />
-          </>
-        );
-
-        case 'sensors':
-          return (
-            <>
-              <Sensors />
-            </>
-          );
-
-        case 'individuals':
-          return (
-            <>
-              <Individuals />
-            </>
-          );
-    }
-  };
 
   return (
     <Box sx={{ display: "flex" }}>
@@ -55,7 +22,12 @@ export default function ClippedDrawer() {
       <Navigation setContentState={setContentState} />
       <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
         <Toolbar />
-        <Content />
+        <Routes>
+          <Route path="/" element={<Report />} />
+          <Route path="/tanks" element={<Tanks />} />
+          <Route path="/sensors" element={<Sensors />} />
+          <Route path="/individuals" element={<Individuals />} />
+        </Routes>
       </Box>
     </Box>
   );
