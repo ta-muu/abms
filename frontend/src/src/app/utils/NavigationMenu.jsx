@@ -11,11 +11,10 @@ import {
 import AssessmentIcon from "@mui/icons-material/Assessment";
 import WaterIcon from "@mui/icons-material/Water";
 import SensorsIcon from "@mui/icons-material/Sensors";
-
 import Icon from "@mdi/react";
 import { mdiChartBar, mdiFishbowl, mdiThermometer, mdiFish } from "@mdi/js";
 
-export default function Navigation({ setContentState }) {
+export default function NavigationMenu({ setContentState }) {
   const drawerWidth = 240;
 
   // const menuItem = [

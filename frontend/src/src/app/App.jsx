@@ -4,8 +4,8 @@ import Box from "@mui/material/Box";
 import CssBaseline from "@mui/material/CssBaseline";
 import Toolbar from "@mui/material/Toolbar";
 
-import Header from "./utils/Header";
-import Navigation from "./utils/Navigation";
+import HeaderMenu from "./utils/HeaderMenu";
+import NavigationMenu from "./utils/NavigationMenu";
 import Report from "./report/Content";
 import Tanks from "./tanks/Content";
 import Sensors from "./sensors/Content";
@@ -18,8 +18,8 @@ export default function ClippedDrawer() {
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
-      <Header />
-      <Navigation setContentState={setContentState} />
+      <HeaderMenu />
+      <NavigationMenu setContentState={setContentState} />
       <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
         <Toolbar />
         <Routes>
