@@ -8,15 +8,33 @@ import {
   ListItemButton,
   ListItemText,
 } from "@mui/material";
+import AssessmentIcon from "@mui/icons-material/Assessment";
+import WaterIcon from "@mui/icons-material/Water";
+import SensorsIcon from "@mui/icons-material/Sensors";
+
+import Icon from "@mdi/react";
+import { mdiChartBar, mdiFishbowl, mdiThermometer, mdiFish } from "@mdi/js";
 
 export default function Navigation({ setContentState }) {
   const drawerWidth = 240;
 
+  // const menuItem = [
+  //   { name: "report", text: "レポート", path: "/", icon: <AssessmentIcon /> },
+  //   { name: "tanks", text: "水槽", path: "/tanks", icon: <WaterIcon />},
+  //   { name: "sensors", text: "センサー", path: "/sensors",icon: <SensorsIcon />},
+  //   { name: "inidividuals", text: "生体", path: "/individuals" },
+  // ];
+
   const menuItem = [
-    { name: "report", text: "レポート", path: "/" },
-    { name: "tanks", text: "水槽", path: "/tanks" },
-    { name: "sensors", text: "センサー", path: "/sensors" },
-    { name: "inidividuals", text: "生体", path: "/individuals" },
+    { name: "report", text: "レポート", path: "/", icon: mdiChartBar },
+    { name: "tanks", text: "水槽", path: "/tanks", icon: mdiFishbowl },
+    {
+      name: "sensors",
+      text: "センサー",
+      path: "/sensors",
+      icon: mdiThermometer,
+    },
+    { name: "inidividuals", text: "生体", path: "/individuals", icon: mdiFish },
   ];
 
   return (
@@ -34,9 +52,10 @@ export default function Navigation({ setContentState }) {
       <Toolbar />
       <Box sx={{ overflow: "auto" }}>
         <List>
-          {menuItem.map(({ name, text, path }) => (
+          {menuItem.map(({ name, text, path, icon }) => (
             <ListItem key={name} disablePadding>
               <ListItemButton href={path}>
+                <Icon path={icon} size={1} />
                 <ListItemText primary={text} />
               </ListItemButton>
             </ListItem>
