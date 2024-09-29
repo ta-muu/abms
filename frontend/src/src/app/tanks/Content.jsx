@@ -1,6 +1,9 @@
 import { useState, useEffect } from "react";
-import { DataGrid } from "@mui/x-data-grid";
-import { Typography, Paper, Button, Stack } from "@mui/material";
+import { Box, Typography, Button, Stack } from "@mui/material";
+import Icon from "@mdi/react";
+import { mdiDelete, mdiPencil, mdiPlus } from "@mdi/js";
+import TankTable from "../utils/Table";
+import DataCreationButton from "../utils/DataCreationButton";
 
 const rows = [
   {
@@ -15,14 +18,27 @@ const rows = [
 
 const columns = [
   { field: "id", headerName: "ID", width: 50 },
-  { field: "name", headerName: "名前", width: 200 },
+  { field: "name", headerName: "名前", width: 300 },
   {
-    field: 'editBtn',
-    headerName: '詳細',
-    sortable: false,
-    width: 90,
+    headerName: "操作",
+    width: 175,
     disableClickEventBubbling: true,
-    renderCell: (params) => <Button variant="contained" color="primary">詳細</Button>
+    sortable: false,
+    filterable: false,
+    hideable: false,
+    align: "center",
+    renderCell: () => (
+      <>
+        <Button width="20">
+          <Icon path={mdiDelete} size={1} />
+          削除
+        </Button>
+        <Button>
+          <Icon path={mdiPencil} size={1} />
+          編集
+        </Button>
+      </>
+    ),
   },
 ];
 
@@ -33,21 +49,13 @@ export default function Tanks() {
 
   return (
     <>
-      <Typography variant="h4">水槽</Typography>
-      {/* <Stack direction="row" spacing={2}>
-      <Button variant="contained">削除</Button>
-      <Button variant="contained">削除</Button>
-      </Stack> */}
-      <Paper sx={{ height: 1000, width: "100%" }}>
-        <DataGrid
-          rows={tanksState}
-          columns={columns}
-          initialState={{ pagination: { paginationModel } }}
-          pageSizeOptions={[10, 100]}
-          // checkboxSelection
-          sx={{ border: 0 }}
-        />
-      </Paper>
+      <Box sx={{ width: "100%" }}>
+        <Stack spacing={2}>
+          <Typography variant="h4">水槽</Typography>
+            <DataCreationButton />
+          <TankTable rows={tanksState} columns={columns} />
+        </Stack>
+      </Box>
     </>
   );
 }
