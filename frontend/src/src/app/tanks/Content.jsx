@@ -3,7 +3,9 @@ import { Box, Typography, Button, Stack } from "@mui/material";
 import Icon from "@mdi/react";
 import { mdiDelete, mdiPencil, mdiPlus } from "@mdi/js";
 import TankTable from "../utils/Table";
-import DataCreationButton from "../utils/DataCreationButton";
+import DataCreateButton from "../utils/DataCreateButton";
+import DataDeleteButton from "../utils/DataDeleteButton";
+import DataEditButton from "../utils/DataEditButton";
 
 const rows = [
   {
@@ -29,14 +31,8 @@ const columns = [
     align: "center",
     renderCell: () => (
       <>
-        <Button width="20">
-          <Icon path={mdiDelete} size={1} />
-          削除
-        </Button>
-        <Button>
-          <Icon path={mdiPencil} size={1} />
-          編集
-        </Button>
+        <DataDeleteButton />
+        <DataEditButton />
       </>
     ),
   },
@@ -52,7 +48,7 @@ export default function Tanks() {
       <Box sx={{ width: "100%" }}>
         <Stack spacing={2}>
           <Typography variant="h4">水槽</Typography>
-            <DataCreationButton />
+          <DataCreateButton />
           <TankTable rows={tanksState} columns={columns} />
         </Stack>
       </Box>

@@ -3,7 +3,9 @@ import { Box, Typography, Button, Stack } from "@mui/material";
 import Icon from "@mdi/react";
 import { mdiDelete, mdiPencil, mdiPlus } from "@mdi/js";
 import IndividualTable from "../utils/Table";
-import DataCreationButton from "../utils/DataCreationButton";
+import DataCreateButton from "../utils/DataCreateButton";
+import DataDeleteButton from "../utils/DataDeleteButton";
+import DataEditButton from "../utils/DataEditButton";
 
 const rows = [
   {
@@ -15,8 +17,8 @@ const rows = [
 
 const columns = [
   { field: "id", headerName: "ID", width: 50 },
-  { field: "name", headerName: "名前", width: 200 },
-  { field: "tank_name", headerName: "所属水槽", width: 200 },
+  { field: "name", headerName: "名前", width: 300 },
+  { field: "tank_name", headerName: "所属水槽", width: 300 },
   {
     headerName: "操作",
     width: 175,
@@ -27,14 +29,8 @@ const columns = [
     align: "center",
     renderCell: () => (
       <>
-        <Button width="20">
-          <Icon path={mdiDelete} size={1} />
-          削除
-        </Button>
-        <Button>
-          <Icon path={mdiPencil} size={1} />
-          編集
-        </Button>
+        <DataDeleteButton />
+        <DataEditButton />
       </>
     ),
   },
@@ -50,7 +46,7 @@ export default function Individuals() {
       <Box sx={{ width: "100%" }}>
         <Stack spacing={2}>
           <Typography variant="h4">生体</Typography>
-          <DataCreationButton />
+          <DataCreateButton />
           <IndividualTable rows={individualsState} columns={columns} />
         </Stack>
       </Box>

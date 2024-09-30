@@ -4,9 +4,9 @@ import { mdiPlus } from "@mdi/js";
 
 const paginationModel = { page: 0, pageSize: 10 };
 
-export default function DataCreationButton() {
+export default function DataCreateButton() {
   return (
-    <Button variant="contained" sx={{ width: 100 }}>
+    <Button variant="outlined" sx={{ width: 100 }}>
       <Icon path={mdiPlus} size={1} />
       追加
     </Button>
